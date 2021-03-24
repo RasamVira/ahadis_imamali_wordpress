@@ -18,15 +18,8 @@ add_action( 'wp_enqueue_scripts', 'ahadisimamali_javascript' );
 
 //Hadis List
 function ahadis_imam_ali_func(){
-    ?>
-    <?php
-        echo '<div class="ahadis">';
-        echo '<div id="imam"> حضرت امیر المومنین علی(ع) : </div>';
-        echo '<script type="text/javascript">';
-        echo 'document.write(ahadis_mola_ali[i]);';
-        echo '</script>';
-        echo '</div>';
-    ?>
-    <?php
+        echo "<div class='ahadis'>
+        <span id='imam'>حضرت امیر المومنین علی(ع): </span>
+        <script type='text/javascript'>document.write(ahadis_mola_ali[i])</script>
+        </div>";
 }
-    ?>

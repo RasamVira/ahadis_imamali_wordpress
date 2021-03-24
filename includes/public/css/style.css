@@ -4,8 +4,10 @@
 	padding: 15px;
 	text-align: justify;
 	display: flex;
+	align-items: center;
 }
 
 #imam {
 	color: whitesmoke;
+	background: transparent !important;
 }
