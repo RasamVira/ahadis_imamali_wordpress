@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fa_IR" dir="rtl">
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
+  <div class="wrap">
     <center>
-      <img src="<?php echo URLIMAMALI.'includes/admin/img/imam-ali.png' ?>" width="120" height="120" >
+      <img src="<?php echo URLIMAMALI.'includes/admin/img/Imam-ali.png' ?>" width="120" height="120" >
     </center>
     <br>
     <h1>راهنمای افزونه احادیث امیر المومنین علی علیه السلام</h1>
@@ -26,5 +21,4 @@
     <center>
     <a href="https://rasamvira.ir" target="_blank">شرکت فناوری اطلاعات رسام ویرا</a>
     </center>
-  </body>
-</html>
+  </div>
